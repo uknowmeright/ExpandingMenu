@@ -432,7 +432,7 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
     
     
     // MARK: - Expand Menu Items
-    fileprivate func expandMenuItems() {
+    public func expandMenuItems() {
         self.willPresentMenuItems?(self)
         self.isAnimating = false
         
